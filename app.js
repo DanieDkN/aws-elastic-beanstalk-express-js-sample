@@ -2,7 +2,9 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Me llamo Daniel y estoy tratando de aprender por mi cuenta ::::)'));
+app.get('/', (req, res) => res.send('PipeLine TEST'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
+
+
